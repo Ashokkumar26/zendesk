@@ -1,0 +1,28 @@
+{
+  "name": "zendesk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@skitter/automation-utils": "^1.1.0",
+    "@types/jest": "^26.0.20",
+    "axios": "^0.21.1",
+    "base-64": "^1.0.0",
+    "fp-ts": "^2.9.5",
+    "io-ts": "^2.2.15",
+    "jest": "^26.6.3",
+    "ramda": "^0.27.1"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
+}

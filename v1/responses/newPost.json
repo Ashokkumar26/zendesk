@@ -1,0 +1,120 @@
+{
+  "output": {
+    "properties": {
+      "id": {
+        "examples": [123456],
+        "type": "number",
+        "title": "Id",
+        "$id": "/properties/id"
+      },
+      "title": {
+        "examples": ["post!"],
+        "type": "string",
+        "title": "Title",
+        "$id": "/properties/title"
+      },
+      "details": {
+        "examples": ["New details!"],
+        "type": "string",
+        "title": "Details",
+        "$id": "/properties/details"
+      },
+      "author_id": {
+        "examples": [123456],
+        "type": "number",
+        "title": "Author id",
+        "$id": "/properties/author_id"
+      },
+      "vote_sum": {
+        "examples": [0],
+        "type": "number",
+        "title": "Vote sum",
+        "$id": "/properties/vote_sum"
+      },
+      "vote_count": {
+        "examples": [0],
+        "type": "number",
+        "title": "Vote count",
+        "$id": "/properties/vote_count"
+      },
+      "comment_count": {
+        "examples": [0],
+        "type": "number",
+        "title": "Comment count",
+        "$id": "/properties/comment_count"
+      },
+      "follower_count": {
+        "examples": [123],
+        "type": "number",
+        "title": "Follower count",
+        "$id": "/properties/follower_count"
+      },
+      "topic_id": {
+        "examples": [123456],
+        "type": "number",
+        "title": "Topic id",
+        "$id": "/properties/topic_id"
+      },
+      "html_url": {
+        "examples": [
+          "https://support.zendesk.com/hc/en-us/community/posts/12608743710-Posts-"
+        ],
+        "type": "string",
+        "title": "Html url",
+        "$id": "/properties/html_url"
+      },
+      "created_at": {
+        "examples": ["2021-03-01T07:06:23Z"],
+        "type": "string",
+        "title": "Created at",
+        "$id": "/properties/created_at"
+      },
+      "updated_at": {
+        "examples": ["2021-03-01T07:06:23Z"],
+        "type": "string",
+        "title": "Updated at",
+        "$id": "/properties/updated_at"
+      },
+      "url": {
+        "examples": [
+          "https://support.zendesk.com/hc/en-us/community/posts/12608743710-Posts.json"
+        ],
+        "type": "string",
+        "title": "Url",
+        "$id": "/properties/url"
+      },
+      "featured": {
+        "examples": [true],
+        "type": "boolean",
+        "title": "Featured",
+        "$id": "/properties/featured"
+      },
+      "pinned": {
+        "examples": [true],
+        "type": "boolean",
+        "title": "Pinned",
+        "$id": "/properties/pinned"
+      },
+      "closed": {
+        "examples": [false],
+        "type": "boolean",
+        "title": "Closed",
+        "$id": "/properties/closed"
+      },
+      "status": {
+        "examples": ["none"],
+        "type": "string",
+        "title": "Status",
+        "$id": "/properties/status"
+      },
+      "action_success": {
+        "examples": [true],
+        "type": "boolean",
+        "title": "action_success",
+        "$id": "/properties/action_success"
+      }
+    },
+    "type": "object",
+    "title": "Post"
+  }
+}

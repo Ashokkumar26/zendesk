@@ -1,0 +1,108 @@
+{
+  "output": {
+    "properties": {
+      "ticket_id": {
+        "examples": [12],
+        "type": "number",
+        "title": "Ticket id",
+        "$id": "/properties/ticket_id"
+      },
+      "subject": {
+        "examples": ["New Ticket"],
+        "type": "string",
+        "title": "Subject",
+        "$id": "/properties/subject"
+      },
+      "description": {
+        "examples": ["This is the first ticket"],
+        "type": "string",
+        "title": "Description",
+        "$id": "/properties/description"
+      },
+      "status": {
+        "examples": ["open"],
+        "type": "string",
+        "title": "Status",
+        "$id": "/properties/status"
+      },
+      "type": {
+        "examples": ["incident"],
+        "type": "string",
+        "title": "Type",
+        "$id": "/properties/type"
+      },
+      "priority": {
+        "examples": ["normal"],
+        "type": "string",
+        "title": "Priority",
+        "$id": "/properties/priority"
+      },
+      "id": {
+        "examples": [123456],
+        "type": "number",
+        "title": "Id",
+        "$id": "/properties/id"
+      },
+      "created_at": {
+        "examples": ["2021-02-26T04:39:47Z"],
+        "type": "string",
+        "title": "Created at",
+        "$id": "/properties/created_at"
+      },
+      "author_id": {
+        "examples": [123456],
+        "type": "number",
+        "title": "Author id",
+        "$id": "/properties/author_id"
+      },
+      "events": {
+        "type": "collection",
+        "title": "events",
+        "$id": "/properties/events",
+        "item": {
+          "type": "object",
+          "properties": {
+            "id": {
+              "examples": [123456],
+              "type": "number",
+              "title": "Id",
+              "$id": "/properties/id"
+            },
+            "type": {
+              "examples": ["Comment"],
+              "type": "string",
+              "title": "Type",
+              "$id": "/properties/type"
+            },
+            "author_id": {
+              "examples": [123456],
+              "type": "number",
+              "title": "Author id",
+              "$id": "/properties/author_id"
+            },
+            "body": {
+              "examples": ["The smoke is very colorful"],
+              "type": "string",
+              "title": "Body",
+              "$id": "/properties/body"
+            },
+            "public": {
+              "examples": [true],
+              "type": "boolean",
+              "title": "Public",
+              "$id": "/properties/public"
+            },
+            "audit_id": {
+              "examples": [123456],
+              "type": "number",
+              "title": "Audit id",
+              "$id": "/properties/audit_id"
+            }
+          }
+        }
+      }
+    },
+    "type": "object",
+    "title": "TicketComment"
+  }
+}

@@ -1,0 +1,299 @@
+{
+  "output": {
+    "properties": {
+      "ticket": {
+        "type": "object",
+        "properties": {
+          "url": {
+            "examples": ["https://abcd.zendesk.com/api/v2/tickets/4.json"],
+            "type": "string",
+            "title": "Url",
+            "$id": "/properties/ticket/url"
+          },
+          "id": {
+            "examples": [123456],
+            "type": "number",
+            "title": "Id",
+            "$id": "/properties/ticket/id"
+          },
+          "created_at": {
+            "examples": ["2021-02-26T04:39:47Z"],
+            "type": "string",
+            "title": "Created at",
+            "$id": "/properties/ticket/created_at"
+          },
+          "updated_at": {
+            "examples": ["2021-02-26T04:39:47Z"],
+            "type": "string",
+            "title": "Updated at",
+            "$id": "/properties/ticket/updated_at"
+          },
+          "type": {
+            "examples": ["Comment"],
+            "type": "string",
+            "title": "Type",
+            "$id": "/properties/ticket/type"
+          },
+          "subject": {
+            "examples": ["New Ticket"],
+            "type": "string",
+            "title": "Subject",
+            "$id": "/properties/ticket/subject"
+          },
+          "raw_subject": {
+            "examples": ["New Ticket"],
+            "type": "string",
+            "title": "Raw subject",
+            "$id": "/properties/ticket/raw_subject"
+          },
+          "description": {
+            "examples": ["This is the first ticket"],
+            "type": "string",
+            "title": "Description",
+            "$id": "/properties/ticket/description"
+          },
+          "priority": {
+            "examples": ["normal"],
+            "type": "string",
+            "title": "Priority",
+            "$id": "/properties/ticket/priority"
+          },
+          "status": {
+            "examples": ["open"],
+            "type": "string",
+            "title": "Status",
+            "$id": "/properties/ticket/status"
+          },
+          "recipient": {
+            "examples": ["null"],
+            "title": "Recipient",
+            "$id": "/properties/ticket/recipient"
+          },
+          "requester_id": {
+            "examples": [123456],
+            "type": "number",
+            "title": "Requester id",
+            "$id": "/properties/ticket/requester_id"
+          },
+          "submitter_id": {
+            "examples": [123456],
+            "type": "number",
+            "title": "Submitter id",
+            "$id": "/properties/ticket/submitter_id"
+          },
+          "assignee_id": {
+            "examples": [123456],
+            "type": "number",
+            "title": "Assignee id",
+            "$id": "/properties/ticket/assignee_id"
+          },
+          "organization_id": {
+            "examples": [123456],
+            "type": "number",
+            "title": "Organization id",
+            "$id": "/properties/ticket/organization_id"
+          },
+          "group_id": {
+            "examples": [123456],
+            "type": "number",
+            "title": "Group id",
+            "$id": "/properties/ticket/group_id"
+          },
+          "has_incidents": {
+            "examples": [false],
+            "type": "boolean",
+            "title": "Has incidents",
+            "$id": "/properties/ticket/has_incidents"
+          },
+          "is_public": {
+            "examples": [false],
+            "type": "boolean",
+            "title": "Is public",
+            "$id": "/properties/ticket/is_public"
+          },
+          "due_at": {
+            "examples": ["null"],
+            "type": "string",
+            "title": "Due at",
+            "$id": "/properties/ticket/due_at"
+          },
+          "brand_id": {
+            "examples": [123456],
+            "type": "number",
+            "title": "Brand id",
+            "$id": "/properties/ticket/brand_id"
+          },
+          "allow_channelback": {
+            "examples": [false],
+            "type": "boolean",
+            "title": "Allow channelback",
+            "$id": "/properties/ticket/allow_channelback"
+          },
+          "allow_attachments": {
+            "examples": [false],
+            "type": "boolean",
+            "title": "Allow attachments",
+            "$id": "/properties/ticket/allow_attachments"
+          }
+        },
+        "title": "ticket"
+      },
+      "audit": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "examples": [123456],
+            "type": "number",
+            "title": "Id",
+            "$id": "/properties/audit/id"
+          },
+          "ticket_id": {
+            "examples": [16],
+            "type": "number",
+            "title": "Ticket id",
+            "$id": "/properties/audit/ticket_id"
+          },
+          "created_at": {
+            "examples": ["2021-02-26T04:39:47Z"],
+            "type": "string",
+            "title": "Created at",
+            "$id": "/properties/audit/created_at"
+          },
+          "author_id": {
+            "examples": [123456],
+            "type": "number",
+            "title": "Author id",
+            "$id": "/properties/audit/author_id"
+          },
+          "events": {
+            "type": "collection",
+            "title": "events",
+            "$id": "/properties/audit/events",
+            "item": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "examples": [123456],
+                  "type": "number",
+                  "title": "Id",
+                  "$id": "/properties/id"
+                },
+                "type": {
+                  "examples": ["Comment"],
+                  "type": "string",
+                  "title": "Type",
+                  "$id": "/properties/type"
+                },
+                "author_id": {
+                  "examples": [123456],
+                  "type": "number",
+                  "title": "Author id",
+                  "$id": "/properties/author_id"
+                },
+                "body": {
+                  "examples": ["The smoke is very colorful"],
+                  "type": "string",
+                  "title": "Body",
+                  "$id": "/properties/body"
+                },
+                "html_body": {
+                  "examples": ["The smoke is very colorful"],
+                  "type": "string",
+                  "title": "Html body",
+                  "$id": "/properties/html_body"
+                },
+                "plain_body": {
+                  "examples": ["The smoke is very colorful"],
+                  "type": "string",
+                  "title": "Plain body",
+                  "$id": "/properties/plain_body"
+                },
+                "public": {
+                  "examples": [true],
+                  "type": "boolean",
+                  "title": "Public",
+                  "$id": "/properties/public"
+                },
+                "audit_id": {
+                  "examples": [123456],
+                  "type": "number",
+                  "title": "Audit id",
+                  "$id": "/properties/audit_id"
+                }
+              }
+            }
+          },
+          "via": {
+            "type": "object",
+            "properties": {
+              "channel": {
+                "examples": ["api"],
+                "type": "string",
+                "title": "Channel",
+                "$id": "/properties/audit/via/channel"
+              },
+              "source": {
+                "type": "object",
+                "properties": {
+                  "from": {
+                    "type": "object",
+                    "properties": {
+                      "name": {
+                        "examples": ["John"],
+                        "type": "string",
+                        "title": "Name",
+                        "$id": "/properties/audit/via/source/from/name"
+                      },
+                      "address": {
+                        "examples": "[\"john",
+                        "type": "string",
+                        "title": "Address",
+                        "$id": "/properties/audit/via/source/from/address"
+                      }
+                    },
+                    "title": "from"
+                  },
+                  "to": {
+                    "type": "object",
+                    "properties": {
+                      "name": {
+                        "examples": ["Smith"],
+                        "type": "string",
+                        "title": "Name",
+                        "$id": "/properties/audit/via/source/to/name"
+                      },
+                      "address": {
+                        "examples": "[\"smith",
+                        "type": "string",
+                        "title": "Address",
+                        "$id": "/properties/audit/via/source/to/address"
+                      }
+                    },
+                    "title": "to"
+                  },
+                  "rel": {
+                    "examples": ["null"],
+                    "type": "string",
+                    "title": "Rel",
+                    "$id": "/properties/audit/via/source/rel"
+                  }
+                },
+                "title": "source"
+              }
+            },
+            "title": "via"
+          }
+        },
+        "title": "audit"
+      },
+      "action_success": {
+        "examples": [true],
+        "type": "boolean",
+        "title": "action_success",
+        "$id": "/properties/action_success"
+      }
+    },
+    "type": "object",
+    "title": "Ticket"
+  }
+}
